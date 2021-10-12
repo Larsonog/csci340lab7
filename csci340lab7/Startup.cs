@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
@@ -8,8 +8,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Csci340lab7.Data;
 
-namespace csci340lab7
+namespace Csci340lab7
 {
     public class Startup
     {
@@ -24,6 +26,9 @@ namespace csci340lab7
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddDbContext<Csci340lab7Context>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("Csci340lab7Context")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

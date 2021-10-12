@@ -29,7 +29,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "csci340lab7/1.0.0": {
+      "Csci340lab7/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.19",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.19",
@@ -305,10 +305,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "csci340lab7.dll": {}
+          "Csci340lab7.dll": {}
         },
         "compile": {
-          "csci340lab7.dll": {}
+          "Csci340lab7.dll": {}
         }
       },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -3822,7 +3822,7 @@
     }
   },
   "libraries": {
-    "csci340lab7/1.0.0": {
+    "Csci340lab7/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

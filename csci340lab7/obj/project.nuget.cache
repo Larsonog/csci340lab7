@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cAcdYC4JoaayIphB20R86otLS0lTPyMR5ZXhG7kjQX68v/veMiasWsiK6cVx8GuxFHQijTMok3HEfImF1goqMg==",
+  "dgSpecHash": "iDBS/4P09fMzQne8iX1RpeJFoaYyNd8nGrHchGrWl20W/nJ4ISxBf1pJz+mL4gi+8/YyfrRcV/KBGBThZiKuZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mango\\Desktop\\csci340lab7\\csci340lab7\\csci340lab7.csproj",
+  "projectFilePath": "C:\\Users\\mango\\Desktop\\csci340lab7\\Csci340lab7\\Csci340lab7.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mango\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\mango\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
