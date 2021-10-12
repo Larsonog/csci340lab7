@@ -1,4 +1,4 @@
-﻿@page
+﻿@page 
 @model Csci340lab7.Pages.Avocados.DeleteModel
 
 @{
@@ -37,7 +37,7 @@
             @Html.DisplayFor(model => model.Avocado.Price)
         </dd>
     </dl>
-    
+
     <form method="post">
         <input type="hidden" asp-for="Avocado.ID" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
