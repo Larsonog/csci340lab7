@@ -23,34 +23,34 @@ namespace Csci340lab7.Models
                 context.Avocado.AddRange(
                     new Avocado
                     {
-                        ID = 1,
-                        Triedon = DateTime.Parse("2021-2-4"),
-                        Bigorsmall   = "small",
-                        Price = 7.99M
+                        Type = "Flavcado",
+                        Tried = DateTime.Parse("2021-2-12"),
+                        Enjoyment = "Very Yummy",
+                        Price = 2.99M
                     },
 
                     new Avocado
                     {
-                        ID = 2,
-                        Triedon = DateTime.Parse("2021-2-3"),
-                        Bigorsmall = "big",
-                        Price = 7.99M
+                        Type = "California",
+                        Tried = DateTime.Parse("2021-2-1"),
+                        Enjoyment = "Super Good",
+                        Price = 1.99M
                     },
 
                     new Avocado
                     {
-                        ID = 3,
-                        Triedon = DateTime.Parse("2021-2-2"),
-                        Bigorsmall = "big",
-                        Price = 7.99M
+                        Type = "Made in Mexico",
+                        Tried = DateTime.Parse("2021-2-3"),
+                        Enjoyment = "OK",
+                        Price = 0.99M
                     },
 
                     new Avocado
                     {
-                        ID = 4,
-                        Triedon = DateTime.Parse("2021-2-1"),
-                        Bigorsmall = "small",
-                        Price = 7.99M
+                        Type = "Avocado",
+                        Tried = DateTime.Parse("2021-3-12"),
+                        Enjoyment = "Pretty Good",
+                        Price = 1.50M
                     }
                 );
                 context.SaveChanges();

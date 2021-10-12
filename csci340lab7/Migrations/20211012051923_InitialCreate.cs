@@ -14,8 +14,8 @@ namespace Csci340lab7.Migrations
                     ID = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Type = table.Column<string>(nullable: true),
-                    Triedon = table.Column<DateTime>(nullable: false),
-                    Bigorsmall = table.Column<string>(nullable: true),
+                    Tried = table.Column<DateTime>(nullable: false),
+                    Enjoyment = table.Column<string>(nullable: true),
                     Price = table.Column<decimal>(nullable: false)
                 },
                 constraints: table =>

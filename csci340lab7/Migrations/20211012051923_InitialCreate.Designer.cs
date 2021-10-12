@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Csci340lab7.Migrations
 {
     [DbContext(typeof(Csci340lab7Context))]
-    [Migration("20211012041727_InitialCreate")]
+    [Migration("20211012051923_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -28,13 +28,13 @@ namespace Csci340lab7.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Bigorsmall")
+                    b.Property<string>("Enjoyment")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<DateTime>("Triedon")
+                    b.Property<DateTime>("Tried")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Type")
