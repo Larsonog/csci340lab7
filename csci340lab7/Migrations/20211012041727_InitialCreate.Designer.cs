@@ -28,7 +28,7 @@ namespace Csci340lab7.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Brand")
+                    b.Property<string>("Bigorsmall")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
